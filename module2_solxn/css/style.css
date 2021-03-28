@@ -2,24 +2,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body{
 	text-decoration: none;
 	position: relative;
-	margin: 40px 10px;
+	margin: 40px 20px;
 }
 
 
 .row{
 	width: 100%;	
 	margin: 0 auto;
-
 }
 
-section{
-	
-}
+
 
 h1{
 	margin-bottom: 20px;
@@ -32,7 +30,7 @@ h3{
 	border-left: 1px solid black;
 	white-space: nowrap;
 	width: 30%;
-	margin-left: 65%;
+	margin-left: 70%;
 	padding-left: 5px;
 
 
@@ -49,19 +47,21 @@ h3.blue{
 h3.orange{
 	background-color: #ff8800;
 }
+
+section{
+	padding: 0 10px;
+}
     
 
 p{
 	position: relative;
 	height: 150px;
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	border: 1px solid black;
 	bottom: 23px;
 	padding: 30px 20px 20px;
-	overflow: hidden;
-
-	
+	overflow: hidden;	
 }
 
 
@@ -114,8 +114,6 @@ p{
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
         float: left;
-        margin-bottom: 15px;
-        margin-right: 20px;
     }
 
     .col-md-1{
@@ -158,8 +156,8 @@ p{
 @media (max-width: 767px) {
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
         float: left;
-        font-size: .95em;
-        font-weight: .95em;
+        font-size: .98em;
+        font-weight: .98em;
 
     }
 
